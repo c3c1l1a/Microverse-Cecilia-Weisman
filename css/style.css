@@ -1,0 +1,43 @@
+/* Mobile */
+@media (max-width: 500px) {
+
+} 
+
+/* Tablet */
+@media (min-width:  501px) and (max-width:  720px){
+
+}
+
+/* Desktop */
+@media (min-width: 721px){
+	body {
+		width: 100%;
+	}
+	#welcome-section {
+		
+		width: 100%;
+		background-color: #1a1c2c;
+		height: 100vh;
+		color:  white;
+		justify-content: center;
+
+	}
+
+	#welcome-section h1 {
+		position: relative;
+		width:  50%;
+		top:  35%;
+		margin: auto;
+
+	}
+
+	#welcome-section h3 {
+		position: relative;
+		top:  40%;
+		width: 50%;
+		margin: auto;
+
+	}
+}
+
+
