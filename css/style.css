@@ -38,6 +38,18 @@
 		margin: auto;
 
 	}
+    #navbar {
+        position: fixed;
+        top: 0;
+        
+        margin: auto;
+
+    }
+    #navbar a {
+        
+        text-decoration: none;
+        color: rgb(255, 0, 55);
+    }
 }
 
 
