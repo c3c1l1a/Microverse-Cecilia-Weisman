@@ -41,15 +41,43 @@
     #navbar {
         position: fixed;
         top: 0;
-        
         margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color: #bf4a5a;
+        width: 100%;
+        height: 100px;
 
     }
     #navbar a {
-        
-        text-decoration: none;
+        /*text-decoration: none;
         color: rgb(255, 0, 55);
+        height: 100%;
+        background-color: green;
+        margin-left:  10px ;
+        font-size: 1.5em;
+        line-height: 30%;*/
+
+        color: #fff; 
+        width: fit-content; 
+        height: 30px; 
+        line-height: 30px; 
+        font-size: 20px; 
+        font-weight: bold; 
+        text-align: center; 
+        background: #ffb515; 
+        border-radius: 5px; 
+        box-shadow: 0 1px 3px rgba(0,0,0,0.5); 
+        text-shadow: 0 -1px 1px rgba(0,0,0,0.25); 
+        cursor: pointer; 
+        align-self: center;
+        margin-left: 5px;
+        margin-right: 10px;
+        padding: 30px;
     }
+    
+
 }
 
 
